@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>contas basicas</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body id="corpo">
+
+        <div id="titulo">
+            <div>
+                <h1>Aulas PW</h1>
+            </div>
+        </div>
+
+        <div>
+            <div id="login" class="caixa_operacoes">
+                <h2>Faça O login</h2>
+                <input type="email" placeholder="insira se email" id="email">
+                <input type="password" placeholder="insira sua senha" id="senha">
+                <button onclick="login()">clique aqui</button>
+            </div>
+            <div id="soma" class="caixa_operacoes">
+                <h2>Operação de soma</h2>
+                <button onclick="somar()">clique aqui</button>
+            </div> 
+            <div id="subtracao" class="caixa_operacoes">
+                <h2>Operação de subtração</h2>
+                <button onclick="subtrair()">clique aqui</button>
+            </div>
+
+            <div id="divisao" class="caixa_operacoes">
+                <h2>Operação de divisão</h2>
+                <button onclick="dividir()">clique aqui</button>
+            </div>
+
+            <div id="multiplicacao" class="caixa_operacoes">
+                <h2>Operação de multiplicação</h2>
+                <button onclick="multiplicar()">clique aqui</button>
+            </div>
+
+            <div id="elevado" class="caixa_operacoes">
+                <h2>elevado</h2>
+                <button onclick="elevado()">clique aqui</button>
+            </div>
+
+            <div id="raiz" class="caixa_operacoes">
+                <h2>raiz</h2>
+                <button onclick="raiz()">clique aqui</button>
+            </div>
+
+            <div id="lista" class="caixa_operacoes">
+                <h2>lista de compras</h2>
+                <input type="text" placeholder="nome" id="nome">
+                <input type="text" placeholder="marca" id="marca">
+                <input type="number" placeholder="preço" id="preco">
+                <button onclick="adicionar()">Adicionar ao carrinho</button>
+                <ul id="lista_prod">
+        
+                </ul>
+            </div>
+            
+        </div> 
+
+        
+    </body>
+
+</html>
